@@ -1,0 +1,91 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  min-height: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  background-image:url(../images/bg.png),$bg-gradient;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#home{
+  padding: 3rem;
+  
+}
+
+.logo {
+
+  & img {
+    width: 100%;
+  }
+  @include responsive(laptops) {
+    width: 40vw;
+   }
+   @include responsive(horizontal) {
+    width: 40vw;
+    margin: .5rem auto;
+   }
+   @include responsive(ipad-horizontal) {
+   
+}
+}
+
+.survey-info {
+  
+  text-align: center;
+
+  &__title{
+    font-size: 1.1rem;
+  }
+  
+  
+
+
+
+
+  &__title {
+    margin: 3rem 0;
+  }
+  &__body {
+    margin: 2rem 0 3rem 0;
+    &>*{
+      margin: 1.5rem 0rem;
+
+      @include responsive(bg-smartphone) {
+        background:red;
+        margin: 3rem 0rem;
+       }
+       @include responsive(tablet) {
+         background:blue;
+         margin: 3.5rem 0rem;
+         font-size: 1rem;
+        }
+        @include responsive(ipad) {
+         background:green;
+         margin: 3.5rem 0rem;
+        }
+        @include responsive(horizontal) {
+          margin: 2rem 0;
+         }
+         @include responsive(sm-smartphone-horizontal) {
+          margin: 1rem 0;
+         }
+         @include responsive(iphone-x) {
+          margin: .5rem 0;
+      }
+    }
+  }
+  &__button-start{
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}

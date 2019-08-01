@@ -1,0 +1,23 @@
+// Abstracts
+@import "./abstracts/mixings";
+@import "./abstracts/variables";
+
+// Base
+@import "./base/animations";
+@import "./base/typography";
+@import "./base/utilities";
+
+// Components
+@import "./components/button";
+@import "./components/nav";
+@import "./components/card";
+
+// Layout
+@import "./layout/navigation";
+
+// Pages
+@import "./pages/home";
+@import "./pages/terminos-condiciones";
+@import "./pages/ranking";
+@import "./pages/awards";
+@import "./pages/game";

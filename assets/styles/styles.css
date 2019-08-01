@@ -1,0 +1,533 @@
+html {
+  font-size: 66%;
+  color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  line-break: 1;
+  font-weight: 400;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */ }
+  @media (min-width: 480px) {
+    html {
+      font-size: 70%; } }
+  @media (min-width: 600px) {
+    html {
+      font-size: 100%; } }
+  @media (min-width: 1025px) {
+    html {
+      font-size: 100%; } }
+  @media only screen and (device-width: 1024px) and (orientation: landscape) {
+    html {
+      font-size: 100%; } }
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) {
+    html {
+      font-size: 52%; } }
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: landscape) {
+    html {
+      background: red;
+      font-size: 10%; } }
+  @media only screen and (min-device-width: 740px) and (max-device-height: 360px) and (orientation: landscape) {
+    html {
+      font-size: 10%; } }
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    html {
+      font-size: 70%; } }
+  @media only screen and (min-device-width: 736px) and (max-device-height: 414px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    html {
+      background: salmon;
+      font-size: 10%; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 60%; } }
+
+body {
+  font-size: 1.4rem; }
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a,
+p {
+  text-decoration: none;
+  color: #ffffff; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+p {
+  font-size: 1.3rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0; }
+
+.text-yellow {
+  color: #fce406; }
+
+.border-1 {
+  border-bottom: 2px solid #3b3068;
+  padding-bottom: 2rem; }
+
+.p-1 {
+  padding: 1rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.pt-1 {
+  padding-top: 1rem; }
+
+.pt-2 {
+  padding-top: 2rem; }
+
+.m-1 {
+  margin: 1rem; }
+
+.m-2 {
+  margin: 2rem; }
+
+.mt-1 {
+  margin-top: 1rem; }
+
+.mt-2 {
+  margin-bottom: 2rem; }
+
+.mb-1 {
+  margin-bottom: 1rem; }
+
+.mb-2 {
+  margin-bottom: 2rem; }
+
+.font-size-1 {
+  font-size: 1.2rem; }
+
+.font-size-2 {
+  font-size: 1.3rem; }
+
+.font-size-3 {
+  font-size: 2.5rem; }
+
+.text-center {
+  text-align: center; }
+
+.disabled {
+  display: none; }
+
+.btn {
+  padding: 1.1rem 3.6rem;
+  border-radius: 3rem;
+  border: 2px solid #fff;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  width: 14rem;
+  max-width: 13.5rem;
+  min-width: 13.5rem;
+  max-height: 3.8rem;
+  min-height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.btn-purple {
+  background: #3b3068; }
+
+.btn-red {
+  background-color: #ce2828; }
+
+.btn-green {
+  background-color: #33af5a; }
+
+.nav {
+  padding: 2rem;
+  border-bottom: 2px solid #3b3068; }
+
+.nav, .arrow-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2.3rem; }
+
+.arrow-link__path {
+  padding-left: 2rem; }
+
+.arrow-link-icon {
+  height: 1.9rem; }
+
+header {
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border-top: 1px solid #eeeeee;
+  z-index: 9999; }
+
+#navbar {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 1.5rem; }
+
+.navbar-button {
+  margin: 0;
+  flex: 1;
+  height: 100%; }
+
+.navbar-button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  min-height: 100%; }
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/bg.png), linear-gradient(#6745a6, #0f082c);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#home {
+  padding: 3rem; }
+
+.logo {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */ }
+  .logo img {
+    width: 100%; }
+  @media (min-width: 1025px) {
+    .logo {
+      width: 40vw; } }
+  @media (min-width: 480px) and (orientation: landscape) {
+    .logo {
+      width: 40vw;
+      margin: .5rem auto; } }
+
+.survey-info {
+  text-align: center; }
+  .survey-info__title {
+    font-size: 1.1rem; }
+  .survey-info__title {
+    margin: 3rem 0; }
+  .survey-info__body {
+    margin: 2rem 0 3rem 0; }
+    .survey-info__body > * {
+      margin: 1.5rem 0rem;
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* smartphones, Android phones, landscape iPhone */
+      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+      /* tablet, landscape iPad, lo-res laptops ands desktops */
+      /* big landscape tablets, laptops, and desktops */ }
+      @media (min-width: 480px) {
+        .survey-info__body > * {
+          background: red;
+          margin: 3rem 0rem; } }
+      @media (min-width: 600px) {
+        .survey-info__body > * {
+          background: blue;
+          margin: 3.5rem 0rem;
+          font-size: 1rem; } }
+      @media (min-width: 801px) {
+        .survey-info__body > * {
+          background: green;
+          margin: 3.5rem 0rem; } }
+      @media (min-width: 480px) and (orientation: landscape) {
+        .survey-info__body > * {
+          margin: 2rem 0; } }
+      @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+        .survey-info__body > * {
+          margin: 1rem 0; } }
+  .survey-info__button-start {
+    margin: .5rem 0;
+    display: flex;
+    justify-content: center; }
+
+.terminos-condiciones-container {
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9;
+  font-size: 1.20rem;
+  line-height: 18px;
+  color: rgba(2, 2, 2, 0.87);
+  box-sizing: border-box;
+  padding: 2.5rem 2.5rem 10rem 2.5rem;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */ }
+  .terminos-condiciones-container ul li::first-letter {
+    font-weight: bolder; }
+  @media (min-width: 600px) {
+    .terminos-condiciones-container {
+      line-height: 25px; } }
+
+.ranking-container {
+  padding: 2.5rem 2.5rem 10rem 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%; }
+
+.player {
+  color: #ffffff;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 2px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .player-data {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .player-data__img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      overflow: hidden; }
+      .player-data__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .player-data__name {
+      padding-left: 2rem; }
+  .player .player-ranking {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; }
+    .player .player-ranking__position {
+      margin-left: 2rem;
+      padding: .5rem 1rem;
+      border-radius: 2rem;
+      background-color: #f3f3f3;
+      color: #3b3068; }
+
+#game {
+  padding: 3rem; }
+
+.pregunta {
+  color: #f3f3f3;
+  line-height: 1.5;
+  font-size: 1,8rem; }
+
+.timer {
+  position: relative;
+  width: 80vw;
+  margin: 3rem auto;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* smartphones, Android phones, landscape iPhone */
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  /* big landscape tablets, laptops, and desktops */ }
+  .timer img {
+    width: 100%;
+    height: 100%; }
+  .timer .time {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 6.5rem;
+    width: 6.5rem;
+    background: #f3f3f3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #3b3068;
+    font-weight: bolder; }
+  @media (min-width: 480px) and (orientation: landscape) {
+    .timer {
+      width: 50vw; } }
+  @media (min-width: 600px) {
+    .timer {
+      width: 60vw;
+      margin: 6rem auto; } }
+  @media only screen and (device-width: 1024px) and (orientation: landscape) {
+    .timer {
+      background: salmon;
+      width: 60vw; } }
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+    .timer {
+      width: 60vw; } }
+  @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation: landscape) {
+    .timer {
+      background: blueviolet;
+      width: 40vw;
+      margin: 1.9rem auto; } }
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (orientation: landscape) {
+    .timer {
+      background: red;
+      width: 60vw; } }
+  @media only screen and (min-device-width: 736px) and (max-device-height: 414px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
+    .timer {
+      background: salmon;
+      width: 60vw; } }
+  @media only screen and (min-device-width: 740px) and (max-device-height: 360px) and (orientation: landscape) {
+    .timer {
+      background: violet;
+      width: 60vw; } }
+
+.correct-image img, .incorrect-image img {
+  height: 6.5rem;
+  width: 6.5rem; }
+
+.waiting-image img {
+  height: 5rem;
+  width: 5rem; }
+
+.buttons-game {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .buttons-game > * {
+    margin: 0 1rem; }

@@ -1,0 +1,17 @@
+.nav{
+    padding: 2rem;
+    border-bottom: 2px solid $color-purple;
+}
+.nav,.arrow-link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.arrow-link__path{
+    padding-left: 2rem;
+}
+.arrow-link-icon{
+    height: 1.9rem;
+}

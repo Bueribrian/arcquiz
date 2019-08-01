@@ -1,0 +1,87 @@
+#game{
+    padding: 3rem;
+}
+.pregunta{
+    color:$color-gray;
+    
+    line-height: 1.5;
+    font-size: 1,8rem;
+    
+}
+
+.timer{
+    position: relative;
+    width: 80vw;
+    margin: 3rem auto;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+    & .time{
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height: 6.5rem;
+        width: 6.5rem;
+        background: $color-gray;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        color:$color-purple;
+        font-weight: bolder;
+    }
+    @include responsive(horizontal){
+        width: 50vw;
+    }
+    @include responsive(tablet){
+        width: 60vw;
+        margin: 6rem auto;
+    }
+    @include responsive(ipad-horizontal) {
+        background: salmon;
+        width: 60vw;
+    }
+    @include responsive(sm-smartphone-horizontal) {
+        
+        width: 60vw;
+    }
+    @include responsive(bg-smartphone-horizontal) {
+        background: blueviolet;
+        width: 40vw;
+        margin: 1.9rem auto;
+    }
+    @include responsive(iphone-xs-horizontal) {
+        background: red;
+        width: 60vw;
+    }
+    @include responsive(iphone-plus) {
+        background: salmon;
+        width: 60vw;
+    }
+    @include responsive(iphone-s9) {
+        background: violet;
+        width: 60vw;
+    }
+}
+.correct-image img, .incorrect-image img{ 
+ height: 6.5rem;
+ width: 6.5rem;
+}
+.waiting-image img{
+    height: 5rem;
+    width: 5rem;
+}
+
+    .buttons-game{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    & > * {
+        margin: 0 1rem;
+    }
+    }

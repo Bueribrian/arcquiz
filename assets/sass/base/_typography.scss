@@ -1,0 +1,93 @@
+html {
+  font-size: 66%;
+  color: $color-gray;
+  font-family: "Roboto", sans-serif;
+  line-break: 1;
+  font-weight: 400;
+
+  @include responsive(bg-smartphone) {
+    // background:red;
+    font-size: 70%;
+  }
+  @include responsive(tablet) {
+    //  background:blue;
+    font-size: 100%;
+  }
+  @include responsive(laptops) {
+    //  background:purple;
+    font-size: 100%;
+  }
+
+  @include responsive(ipad-horizontal) {
+    // background: salmon;
+    font-size: 100%;
+  }
+  @include responsive(bg-smartphone-horizontal) {
+    // background: blueviolet;
+    font-size: 52%;
+  }
+  @include responsive(iphone-xs-horizontal) {
+    background: red;
+    font-size: 10%;
+  }
+  @include responsive(iphone-s9) {
+    // background: violet;
+    font-size: 10%;
+  }
+
+  @include responsive(sm-smartphone-horizontal) {
+    font-size: 70%;
+  }
+  @include responsive(iphone-plus) {
+    background: salmon;
+    font-size: 10%;
+  }
+}
+@media screen and(max-width:320px) {
+  html {
+    font-size: 60%;
+  }
+}
+body {
+  font-size: 1.4rem;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+p {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+p {
+  font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+.text-yellow {
+  color: $color-yellow;
+}
