@@ -1,6 +1,7 @@
 .nav{
     padding: 2rem;
     border-bottom: 2px solid $color-purple;
+    
 }
 .nav,.arrow-link{
     display: flex;
@@ -11,6 +12,7 @@
 
 .arrow-link__path{
     padding-left: 2rem;
+    font-size: 1.9rem;
 }
 .arrow-link-icon{
     height: 1.9rem;

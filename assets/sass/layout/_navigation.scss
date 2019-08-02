@@ -19,7 +19,28 @@ header{
     box-sizing: border-box;
     padding:0 1.5rem;
 
-   
+   @include responsive(desktops){
+    padding: 0 20rem;
+  }
+  @include responsive(laptos-sm-desktops){
+    padding: 0 20rem;
+  }
+  @include responsive(tablets-ipads){
+    padding: 0 10rem;
+    
+  }
+  @include responsive(tablets-ipads-landscape){
+    
+  }
+  
+  @include responsive(low-resolution-tablets-mobiles-landscape){
+     
+  }
+  @include responsive(smartphones-general){
+    
+  }
+
+  
 }
 .navbar-button {
     margin:0;

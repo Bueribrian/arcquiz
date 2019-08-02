@@ -1,86 +1,62 @@
 @mixin responsive($device) {
-
-  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-  @if $device == sm-smartphone{
-    @media (min-width:320px)  { 
-      @content
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  @if $device == desktops {
+    @media (min-width: 1281px) {
+      @content;
     }
   }
-  /* smartphones, Android phones, landscape iPhone */
-  @if $device == bg-smartphone{
-    @media (min-width:480px)  {
-      @content
-     }
-  }
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-  @if $device == tablet{
-    @media (min-width:600px)  { 
-      @content
+
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  @if $device == laptos-sm-desktops {
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      @content;
     }
   }
-  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-  @if $device == ipad{
-    @media (min-width:801px)  { 
-      @content
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  @if $device == tablets-ipads {
+    @media (min-width: 768px) and (max-width: 1024px) {
+      @content;
     }
-
   }
-  /* big landscape tablets, laptops, and desktops */ 
-  @if $device == laptops {
-    @media (min-width:1025px) {
-      @content
-     }
 
-  }
-  @if $device == desktop{
-    @media (min-width:1281px) { /* hi-res laptops and desktops */ }
-    @content
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  @if $device == tablets-ipads-landscape {
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      @content;
     }
-
-// LANDSCAPE
-
-  @if $device == horizontal{
-    @media (min-width:480px) and (orientation: landscape)  {
-      @content
-     }
-  }
-  @if $device == sm-smartphone-horizontal{
-    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-      @content
-      }
   }
 
-
-
-  @if $device == iphone-xs-horizontal{
-    @media only screen 
-      and (device-width : 375px) 
-      and (device-height : 812px) 
-     
-      and (orientation:landscape) { @content}
-  }
-  @if $device == bg-smartphone-horizontal{
-    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) {
-     @content
-      }
-      
-  }
-  @if $device == iphone-plus{
-    @media only screen and (min-device-width: 736px) and (max-device-height: 414px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
-     @content
-      }
-  }
-  @if $device == iphone-s9{
-    @media only screen and (min-device-width: 740px) and (max-device-height: 360px) and (orientation : landscape) {
-     @content
-      }
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  @if $device == low-resolution-tablets-mobiles-landscape {
+    @media (min-width: 481px) and (max-width: 767px) {
+      @content;
+    }
   }
 
-  @if $device == ipad-horizontal{
-    @media only screen 
-
-and (device-width : 1024px)
-and (orientation: landscape) { @content}}
-
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  @if $device == smartphones-general {
+    @media (min-width: 320px) and (max-width: 480px) {
+      @content;
+    }
   }
-
+}

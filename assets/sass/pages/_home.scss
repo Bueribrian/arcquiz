@@ -1,91 +1,136 @@
-
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-html{
+html {
   min-height: 100%;
 }
-body{
+body {
   height: 100%;
   width: 100%;
-  background-image:url(../images/bg.png),$bg-gradient;
+  background-image: url(../images/bg.png), $bg-gradient;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-#home{
-  padding: 3rem;
-  
+#home {
+  padding: 3rem 1rem;
+  @include responsive(desktops){
+    margin: 1rem;
+  }
 }
 
 .logo {
+  width:90%;
+  margin: 0 auto;
 
   & img {
     width: 100%;
+    
   }
-  @include responsive(laptops) {
-    width: 40vw;
-   }
-   @include responsive(horizontal) {
-    width: 40vw;
-    margin: .5rem auto;
-   }
-   @include responsive(ipad-horizontal) {
-   
-}
+  @include responsive(desktops){
+    width: 30%;
+  }
+  @include responsive(laptos-sm-desktops){
+    width: 50%;
+  }
+  @include responsive(tablets-ipads){
+    width: 60%;
+    
+  }
+  @include responsive(tablets-ipads-landscape){
+    width: 40%;
+  }
+  
+  @include responsive(low-resolution-tablets-mobiles-landscape){
+    width: 30%; 
+  }
+  @include responsive(smartphones-general){
+    width: 100%;
+  }
+
+  @media screen and (max-width: 320px){
+   width: 75%
+  }
 }
 
-.survey-info {
-  
+.info {
   text-align: center;
 
-  &__title{
-    font-size: 1.1rem;
-  }
-  
-  
-
-
-
-
   &__title {
+    font-size: 1.1rem;
     margin: 3rem 0;
   }
+
   &__body {
     margin: 2rem 0 3rem 0;
-    &>*{
+    
+    & > * {
       margin: 1.5rem 0rem;
 
-      @include responsive(bg-smartphone) {
-        background:red;
-        margin: 3rem 0rem;
-       }
-       @include responsive(tablet) {
-         background:blue;
-         margin: 3.5rem 0rem;
-         font-size: 1rem;
-        }
-        @include responsive(ipad) {
-         background:green;
-         margin: 3.5rem 0rem;
-        }
-        @include responsive(horizontal) {
-          margin: 2rem 0;
-         }
-         @include responsive(sm-smartphone-horizontal) {
-          margin: 1rem 0;
-         }
-         @include responsive(iphone-x) {
-          margin: .5rem 0;
+      @include responsive(desktops){
+        margin: 2rem;
       }
+      @include responsive(laptos-sm-desktops){
+      
+      }
+      @include responsive(tablets-ipads){
+        margin: 3rem;
+     
+      }
+      @include responsive(tablets-ipads-landscape){
+        margin: 2rem;
+      }
+      
+      @include responsive(low-resolution-tablets-mobiles-landscape){
+         margin: .5rem;
+      }
+      @include responsive(smartphones-general){
+        
+      }
+    
     }
   }
-  &__button-start{
-    margin: .5rem 0;
+  &__button-start {
+    margin: 0.5rem 0;
     display: flex;
     justify-content: center;
   }
+}
+
+.modal{
+  &-title{
+    margin-bottom:2rem;
+    font-size: 2rem;
+  }
+  &-body{
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.57);
+    line-height: 1.9rem;
+    margin-bottom: 4rem;
+  }
+  &-footer{
+    display: flex;
+    justify-content: center;
+
+    & form{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: center;
+      padding-right: 3.5rem;
+      & > * {
+        margin: 0 1rem;
+      }
+    }
+  }
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: $color-purple;
+  padding: 3rem 2.5rem 15rem 2.5rem;
+  overflow: scroll;
 }

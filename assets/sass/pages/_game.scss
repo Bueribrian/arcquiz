@@ -1,87 +1,130 @@
-#game{
-    padding: 3rem;
+#game-container {
+  padding: 3rem 3rem 6rem 3rem;
 }
-.pregunta{
-    color:$color-gray;
+.pregunta {
+  color: $color-gray;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  @include responsive(desktops){
     
-    line-height: 1.5;
-    font-size: 1,8rem;
+  }
+  @include responsive(laptos-sm-desktops){
     
+  }
+  @include responsive(tablets-ipads){
+    
+    font-size: 1.8rem;
+  }
+  @include responsive(tablets-ipads-landscape){
+    font-size: 1.5rem;
+  }
+  
+  @include responsive(low-resolution-tablets-mobiles-landscape){
+    
+  }
+  @include responsive(smartphones-general){
+    font-size: 1.4rem;
+  }
+}
+.question{
+  @include responsive(desktops){
+    padding: 0 20rem;
+  }
+  @include responsive(laptos-sm-desktops){
+    padding: 0 15rem;
+  }
+  @include responsive(tablets-ipads){
+    
+    
+  }
+  @include responsive(tablets-ipads-landscape){
+    padding: 0 5rem;
+  }
+  
+  @include responsive(low-resolution-tablets-mobiles-landscape){
+    padding: 0 2rem;
+  }
+  @include responsive(smartphones-general){
+    padding: 0;
+  }
 }
 
-.timer{
-    position: relative;
-    width: 80vw;
-    margin: 3rem auto;
-    & img{
-        width: 100%;
-        height: 100%;
-    }
-    & .time{
-        position: absolute;
-        top: 53%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        height: 6.5rem;
-        width: 6.5rem;
-        background: $color-gray;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 4rem;
-        color:$color-purple;
-        font-weight: bolder;
-    }
-    @include responsive(horizontal){
-        width: 50vw;
-    }
-    @include responsive(tablet){
-        width: 60vw;
-        margin: 6rem auto;
-    }
-    @include responsive(ipad-horizontal) {
-        background: salmon;
-        width: 60vw;
-    }
-    @include responsive(sm-smartphone-horizontal) {
-        
-        width: 60vw;
-    }
-    @include responsive(bg-smartphone-horizontal) {
-        background: blueviolet;
-        width: 40vw;
-        margin: 1.9rem auto;
-    }
-    @include responsive(iphone-xs-horizontal) {
-        background: red;
-        width: 60vw;
-    }
-    @include responsive(iphone-plus) {
-        background: salmon;
-        width: 60vw;
-    }
-    @include responsive(iphone-s9) {
-        background: violet;
-        width: 60vw;
-    }
-}
-.correct-image img, .incorrect-image img{ 
- height: 6.5rem;
- width: 6.5rem;
-}
-.waiting-image img{
-    height: 5rem;
-    width: 5rem;
-}
+.timer {
+  position: relative;
+  width: 100%;
+  margin: 3rem auto;
 
-    .buttons-game{
+  & img {
     width: 100%;
+    height: 100%;
+  }
+  & .img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/loading-icon-1.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: imageA 7s infinite  ease-in-out;
+    transition: .3s all;
+  }
+  & .time {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 6.5rem;
+    width: 6.5rem;
+    background: rgb(249, 248, 247); 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: $color-purple;
+    font-weight: bolder;
 
 
-    & > * {
-        margin: 0 1rem;
-    }
-    }
+
+
+  }
+  @include responsive(desktops){
+    width: 30%;
+  }
+  @include responsive(laptos-sm-desktops){
+    width: 50%;
+  }
+  @include responsive(tablets-ipads){
+    width: 80%;
+    
+  }
+  @include responsive(tablets-ipads-landscape){
+    width: 55%;
+  }
+  
+  @include responsive(low-resolution-tablets-mobiles-landscape){
+     width: 25%;
+  }
+  @include responsive(smartphones-general){
+    
+  }
+}
+.correct-image img,
+.incorrect-image img {
+  height: 6.5rem;
+  width: 6.5rem;
+}
+.waiting-image img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.buttons-game {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    margin: 0 1rem;
+  }
+}

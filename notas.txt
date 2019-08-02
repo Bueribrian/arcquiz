@@ -1,0 +1,2 @@
+Arreglar fuentes respecto al diseño,
+hacer animacion con los icones en la parte de juego.html

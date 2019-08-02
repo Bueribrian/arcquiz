@@ -1,0 +1,54 @@
+@keyframes imageA{
+    0%{
+        background-image: url("../images/loading-icon-1.svg")
+    }
+    6%{
+        opacity: 0;
+    }
+    12%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-2.svg")
+    }
+   18%{
+        opacity: 0;
+    }
+    24%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-3.svg")
+    }
+    30%{
+        opacity: 0;
+    }
+    36%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-4.svg")
+    }
+    42%{
+        opacity: 0;
+    }
+    48%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-5.svg")
+    }
+    54%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-6.svg")
+    }
+    66%{
+        opacity: 0;
+    }
+    72%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-7.svg")
+    }
+    78%{
+        opacity: 0;
+    }
+    84%{
+        opacity: 1;
+        background-image: url("../images/loading-icon-1.svg")
+    }
+}
