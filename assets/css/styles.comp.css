@@ -233,11 +233,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 1.4rem;
+  font-size: 1.45rem;
   font-weight: 400; }
 
 p {
-  font-size: 1.3rem; }
+  font-size: 1.15rem; }
 
 h1,
 h2,
@@ -780,11 +780,22 @@ body {
   text-align: center; }
   .info__title {
     font-size: 1.1rem;
-    margin: 3rem 0; }
+    margin: 3rem 0;
+    position: relative; }
+    .info__title::after {
+      content: "";
+      position: absolute;
+      bottom: -2rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 40%;
+      height: 2px;
+      background: #3b3068; }
   .info__body {
     margin: 2rem 0 3rem 0; }
     .info__body > * {
       margin: 1.5rem 0rem;
+      padding: 0 1rem;
       /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
       /* 
   ##Device = Desktops
@@ -2167,7 +2178,35 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     animation: imageA 7s infinite  ease-in-out;
-    transition: .3s all; }
+    transition: .3s all;
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/ }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .timer .img {
+        background-size: 70%; } }
   .timer .time {
     position: absolute;
     top: 53%;
@@ -2182,7 +2221,35 @@ body {
     align-items: center;
     font-size: 4rem;
     color: #3b3068;
-    font-weight: bolder; }
+    font-weight: bolder;
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/ }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .timer .time {
+        top: 51.5%; } }
   @media (min-width: 1281px) {
     .timer {
       width: 30%; } }

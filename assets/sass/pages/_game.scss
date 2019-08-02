@@ -67,6 +67,10 @@
     background-position: center center;
     animation: imageA 7s infinite  ease-in-out;
     transition: .3s all;
+    @include responsive(smartphones-general){
+     background-size: 70%;
+      
+    }
   }
   & .time {
     position: absolute;
@@ -84,7 +88,10 @@
     color: $color-purple;
     font-weight: bolder;
 
+    @include responsive(smartphones-general){
+      top: 51.5%;
 
+    }
 
 
   }

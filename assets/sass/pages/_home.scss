@@ -57,10 +57,22 @@ body {
 
 .info {
   text-align: center;
-
+  
   &__title {
     font-size: 1.1rem;
     margin: 3rem 0;
+    position: relative;
+
+    &::after{
+      content: "";
+      position: absolute;
+      bottom: -2rem;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 40%;
+      height: 2px;
+      background: $color-purple;
+    }
   }
 
   &__body {
@@ -68,7 +80,7 @@ body {
     
     & > * {
       margin: 1.5rem 0rem;
-
+      padding: 0 1rem;
       @include responsive(desktops){
         margin: 2rem;
       }
