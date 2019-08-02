@@ -1,0 +1,43 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: $color-purple;
+    padding: 3rem 2.5rem 5rem 2.5rem;
+    overflow: scroll;
+   
+
+
+    &-title {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+    &-body {
+      font-size: 1.2rem;
+      color: rgba(255, 255, 255, 0.57);
+      line-height: 1.9rem;
+      margin-bottom: 4rem;
+    }
+    &-footer {
+        padding-bottom:5rem;
+      display: flex;
+      justify-content: center;
+  
+      & form {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        padding-right: 3.5rem;
+        & > * {
+          margin: 0 1rem;
+          color: $color-white;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  

@@ -7,17 +7,14 @@
   color: rgba(2, 2, 2, 0.87);
   box-sizing: border-box;
   padding: 2.5rem 2.5rem 10rem 2.5rem;
-  @include responsive(desktops){
+  @include responsive(desktops) {
     padding: 2.5rem 2.5rem 15rem 2.5rem;
   }
-  & ul li::first-letter {
-    font-weight: bolder;
-  }
 
-  @include responsive(desktops){
+  @include responsive(desktops) {
     line-height: 2;
   }
-  @include responsive(tablets-ipads){
+  @include responsive(tablets-ipads) {
     line-height: 1.5;
   }
 }

@@ -8,7 +8,7 @@
   color: #ffffff;
   width: 100%;
   padding: 1rem 0;
-  border-bottom: 2px solid rgba($color-white,0.5);
+  border-bottom: 2px solid rgba($color-white, 0.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@
     &__name {
       padding-left: 2rem;
     }
-    &__credits{
+    &__credits {
       font-size: 1.1rem;
     }
   }
@@ -45,7 +45,7 @@
 
     &__position {
       margin-left: 2rem;
-      padding: 0.4rem .8rem;
+      padding: 0.4rem 0.8rem;
       border-radius: 2rem;
       background-color: $color-gray;
       color: $color-purple;
