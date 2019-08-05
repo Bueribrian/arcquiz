@@ -12,18 +12,19 @@ body {
   background-image: url(../images/bg.png), $bg-gradient;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 
-  @include responsive(desktops){
+  @include responsive(desktops) {
     background-image: url(../images/bg@2x.png), $bg-gradient;
   }
 }
-footer{
+footer {
   width: 100%;
   height: 48px;
   background: transparent;
 }
 #home {
-  padding: 3rem 1rem 8rem 1rem;
+  padding: 2rem 1rem 8rem 1rem;
   @include responsive(desktops) {
     margin: 1rem;
   }
@@ -38,42 +39,43 @@ footer{
     width: 100%;
   }
   @include responsive(desktops) {
-    width: 30%;
+    width: 40%;
   }
   @include responsive(laptos-sm-desktops) {
     width: 50%;
   }
   @include responsive(tablets-ipads) {
-    width: 60%;
+    width: 90%;
   }
   @include responsive(tablets-ipads-landscape) {
-    width: 40%;
+    width: 60%;
   }
 
   @include responsive(low-resolution-tablets-mobiles-landscape) {
-    
     width: 25%;
   }
   @include responsive(smartphones-general) {
     width: 100%;
   }
-  @include responsive(small-smartphones){
-    width: 75%;
+  @include responsive(small-smartphones) {
+    width: 100%;
   }
-  @include responsive(small-smartphones-landscape){
+  @include responsive(small-smartphones-landscape) {
     width: 30%;
   }
 }
 
 .info {
   text-align: center;
-
+  @include responsive(tablets-ipads) {
+    padding: 0 2rem;
+  }
   &__title {
     font-size: 1.1rem;
     margin: 1rem 0 3rem 0;
     position: relative;
 
-    @include responsive(low-resolution-tablets-mobiles-landscape){
+    @include responsive(low-resolution-tablets-mobiles-landscape) {
       margin: 1rem 0;
     }
 
@@ -91,7 +93,7 @@ footer{
 
   &__body {
     margin: 2rem 0 3rem 0;
-    @include responsive(low-resolution-tablets-mobiles-landscape){
+    @include responsive(low-resolution-tablets-mobiles-landscape) {
       margin: 3rem 0 3rem 0;
     }
 
@@ -116,10 +118,9 @@ footer{
       @include responsive(smartphones-general) {
       }
 
-      @include responsive(low-resolution-tablets-mobiles-landscape){
-        margin: .8rem;
+      @include responsive(low-resolution-tablets-mobiles-landscape) {
+        margin: 0.8rem;
       }
-  
     }
   }
   &__button-start {

@@ -1,11 +1,8 @@
 .awards {
   padding: 3rem 0 8rem 0;
-  // @include responsive(desktops){
-  //     padding: 3rem 0 8rem 0;
-  // }
-  // @include responsive(){
-  //     padding: 3rem 0 8rem 0;
-  // }
+  @include responsive(low-resolution-tablets-mobiles-landscape) {
+    padding: 3rem 5rem 8rem 5rem;
+  }
 }
 .carousel {
   width: 100%;
@@ -43,8 +40,8 @@
 
   &__info {
     flex: 1;
-    background: #ffffff;
-    color: #000000;
+    background: $color-white;
+    color: $color-black;
     padding: 1rem 0;
     padding-left: 2rem;
     display: flex;
@@ -64,7 +61,7 @@
     background: $color-gray;
   }
   &__info-title {
-    color: #5b5b5b;
+    color: $color-deepgray;
     font-weight: 200;
     font-size: 1.6rem;
   }
@@ -122,8 +119,8 @@
 
   &__info {
     flex: 1;
-    background: #ffffff;
-    color: #000000;
+    background: $color-white;
+    color: $color-black;
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
@@ -145,7 +142,7 @@
     
   }
   &__info-title {
-    color: #5b5b5b;
+    color: $color-deepgray;
     font-weight: 200;
     font-size: 1.7rem;
   }
