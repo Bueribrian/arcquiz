@@ -356,6 +356,8 @@ p {
   color: #ffffff; }
 
 .btn {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
   padding: 1.1rem 3.6rem;
   border-radius: 3rem;
   border: 2px solid #fff;
