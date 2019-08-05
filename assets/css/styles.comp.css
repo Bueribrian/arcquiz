@@ -2525,7 +2525,7 @@ body {
       width: 38%; } }
   @media screen and (max-width: 320px) {
     .timer {
-      width: 90%; } }
+      width: 80%; } }
   @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
     .timer {
       width: 30%; } }
