@@ -59,14 +59,15 @@
     height: 100%;
   }
   & .img{
-    width: 100%;
-    height: 100%;
+    height: 5rem;
+    width: 5rem;
     background-image: url(../images/loading-icon-1.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center center;
     animation: imageA 7s infinite  ease-in-out;
     transition: .3s all;
+    
     @include responsive(smartphones-general){
      background-size: 70%;
     }
@@ -106,6 +107,7 @@
   
   @include responsive(low-resolution-tablets-mobiles-landscape){
      width: 38%;
+     margin: .5rem auto;
   }
   @include responsive(smartphones-general){
     
@@ -122,8 +124,8 @@
 }
 .correct-image img,
 .incorrect-image img {
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 5rem;
+  width: 5rem;
 }
 .waiting-image img {
   height: 5rem;
