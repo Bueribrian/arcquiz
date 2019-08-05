@@ -12,10 +12,14 @@ body {
   background-image: url(../images/bg.png), $bg-gradient;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include responsive(desktops){
+    background-image: url(../images/bg@2x.png), $bg-gradient;
+  }
 }
 
 #home {
-  padding: 3rem 1rem;
+  padding: 3rem 1rem 8rem 1rem;
   @include responsive(desktops) {
     margin: 1rem;
   }
@@ -23,7 +27,7 @@ body {
 
 .logo {
   padding: 0 1rem;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 
   & img {
@@ -43,14 +47,17 @@ body {
   }
 
   @include responsive(low-resolution-tablets-mobiles-landscape) {
-    width: 30%;
+    
+    width: 25%;
   }
   @include responsive(smartphones-general) {
     width: 100%;
   }
-
-  @media screen and (max-width: 320px) {
+  @include responsive(small-smartphones){
     width: 75%;
+  }
+  @include responsive(small-smartphones-landscape){
+    width: 30%;
   }
 }
 
@@ -59,8 +66,12 @@ body {
 
   &__title {
     font-size: 1.1rem;
-    margin: 3rem 0;
+    margin: 1rem 0 3rem 0;
     position: relative;
+
+    @include responsive(low-resolution-tablets-mobiles-landscape){
+      margin: 1rem 0;
+    }
 
     &::after {
       content: "";
@@ -76,6 +87,9 @@ body {
 
   &__body {
     margin: 2rem 0 3rem 0;
+    @include responsive(low-resolution-tablets-mobiles-landscape){
+      margin: 3rem 0 3rem 0;
+    }
 
     & > * {
       margin: 1.5rem 0rem;
@@ -97,6 +111,11 @@ body {
       }
       @include responsive(smartphones-general) {
       }
+
+      @include responsive(low-resolution-tablets-mobiles-landscape){
+        margin: .8rem;
+      }
+  
     }
   }
   &__button-start {

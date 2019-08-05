@@ -59,4 +59,15 @@
       @content;
     }
   }
+  @if $device == small-smartphones {
+    @media screen and (max-width: 320px){
+      @content;
+     }
+  }
+  
+  @if $device == small-smartphones-landscape {
+    @media screen and (min-width: 320px) and (max-width: 480px)and (orientation:landscape){
+     @content;
+    }
+  }
 }

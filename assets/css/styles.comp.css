@@ -192,6 +192,56 @@ html {
   /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
+*/
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
 */ }
   @media (min-width: 1281px) {
     html {
@@ -207,10 +257,13 @@ html {
       font-size: 90%; } }
   @media (min-width: 481px) and (max-width: 767px) {
     html {
-      font-size: 45%; } }
+      font-size: 60%; } }
   @media screen and (max-width: 320px) {
     html {
-      font-size: 50%; } }
+      font-size: 60%; } }
+  @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    html {
+      font-size: 40%; } }
 
 body {
   font-size: 1.4rem; }
@@ -285,6 +338,9 @@ p {
 
 .mb-2 {
   margin-bottom: 2rem; }
+
+.py-3 {
+  padding: 3rem 0 8rem 0; }
 
 .px-1 {
   padding: 0 1rem; }
@@ -604,10 +660,38 @@ body {
   width: 100%;
   background-image: url(../images/bg.png), linear-gradient(#6745a6, #0f082c);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/ }
+  @media (min-width: 1281px) {
+    body {
+      background-image: url(../images/bg@2x.png), linear-gradient(#6745a6, #0f082c); } }
 
 #home {
-  padding: 3rem 1rem;
+  padding: 3rem 1rem 8rem 1rem;
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   /* 
   ##Device = Desktops
@@ -639,8 +723,58 @@ body {
 
 .logo {
   padding: 0 1rem;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   /* 
   ##Device = Desktops
@@ -807,20 +941,51 @@ body {
       width: 40%; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .logo {
-      width: 30%; } }
+      width: 25%; } }
   @media (min-width: 320px) and (max-width: 480px) {
     .logo {
       width: 100%; } }
   @media screen and (max-width: 320px) {
     .logo {
       width: 75%; } }
+  @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .logo {
+      width: 30%; } }
 
 .info {
   text-align: center; }
   .info__title {
     font-size: 1.1rem;
-    margin: 3rem 0;
-    position: relative; }
+    margin: 1rem 0 3rem 0;
+    position: relative;
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/ }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .info__title {
+        margin: 1rem 0; } }
     .info__title::after {
       content: "";
       position: absolute;
@@ -831,10 +996,63 @@ body {
       height: 2px;
       background: #3b3068; }
   .info__body {
-    margin: 2rem 0 3rem 0; }
+    margin: 2rem 0 3rem 0;
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+    /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+    /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+    /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+    /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/ }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .info__body {
+        margin: 3rem 0 3rem 0; } }
     .info__body > * {
       margin: 1.5rem 0rem;
       padding: 0 1rem;
+      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+      /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+      /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+      /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+      /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+      /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+      /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
       /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
       /* 
   ##Device = Desktops
@@ -997,6 +1215,9 @@ body {
       @media (min-width: 481px) and (max-width: 767px) {
         .info__body > * {
           margin: 0.5rem; } }
+      @media (min-width: 481px) and (max-width: 767px) {
+        .info__body > * {
+          margin: .8rem; } }
   .info__button-start {
     margin: 0.5rem 0;
     display: flex;
@@ -1097,7 +1318,7 @@ body {
       line-height: 1.5; } }
 
 .ranking-container {
-  padding: 2.5rem 2.5rem 10rem 2.5rem;
+  padding: 1rem 2.5rem 10rem 2.5rem;
   display: flex;
   flex-wrap: wrap;
   height: 100%; }
@@ -1133,10 +1354,13 @@ body {
     align-items: flex-end; }
     .player .player-ranking__position {
       margin-left: 2rem;
-      padding: 0.4rem 0.8rem;
+      padding: 0.8rem 1.2rem;
       border-radius: 2rem;
       background-color: #f3f3f3;
       color: #3b3068; }
+
+.awards {
+  padding: 3rem 0 8rem 0; }
 
 .carousel {
   width: 100%;
@@ -1297,7 +1521,8 @@ body {
 .card-1 {
   border-radius: 5px;
   overflow: hidden;
-  height: 17,5rem;
+  height: 17.5rem;
+  min-width: 14rem;
   width: 100%;
   display: flex;
   flex-direction: column; }
@@ -1313,7 +1538,7 @@ body {
     flex-direction: column;
     justify-content: center; }
     .card-1__info > * {
-      margin: .1rem 0; }
+      margin: 0.1rem 0; }
   .card-1__img {
     flex: 1;
     padding: 1rem;
@@ -1337,11 +1562,14 @@ body {
   justify-content: center;
   align-items: center; }
   .carousel-controls-button {
-    margin: 1rem .3rem;
-    height: .8rem;
-    width: .8rem;
+    margin: 1rem 0.3rem;
+    height: 0.8rem;
+    width: 0.8rem;
     background: #f3f3f3;
-    border-radius: 50%; }
+    border-radius: 50%;
+    cursor: pointer; }
+    .carousel-controls-button:hover {
+      background: #fce406; }
 
 .card-2 {
   border-radius: 5px;
@@ -1668,7 +1896,7 @@ body {
     flex-direction: column;
     justify-content: center; }
     .card-2__info > * {
-      margin: .2rem 0; }
+      margin: 0.2rem 0; }
   .card-2__img {
     flex: 1; }
     .card-2__img img {
@@ -1844,6 +2072,9 @@ body {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */ }
+  @media (min-width: 1281px) {
+    .pregunta {
+      padding: 0 20rem; } }
   @media (min-width: 768px) and (max-width: 1024px) {
     .pregunta {
       font-size: 1.8rem; } }
@@ -2005,9 +2236,6 @@ body {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */ }
-  @media (min-width: 1281px) {
-    .question {
-      padding: 0 20rem; } }
   @media (min-width: 1025px) and (max-width: 1280px) {
     .question {
       padding: 0 15rem; } }
@@ -2025,6 +2253,56 @@ body {
   position: relative;
   width: 100%;
   margin: 3rem auto;
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   /* 
   ##Device = Desktops
@@ -2217,11 +2495,11 @@ body {
         background-size: 70%; } }
   .timer .time {
     position: absolute;
-    top: 53%;
+    top: 52.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 6.5rem;
-    width: 6.5rem;
+    height: 6rem;
+    width: 6rem;
     background: #f9f8f7;
     border-radius: 50%;
     display: flex;
@@ -2229,35 +2507,7 @@ body {
     align-items: center;
     font-size: 4rem;
     color: #3b3068;
-    font-weight: bolder;
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-    /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-    /* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-    /* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-    /* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-    /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-    /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/ }
-    @media (min-width: 320px) and (max-width: 480px) {
-      .timer .time {
-        top: 51.5%; } }
+    font-weight: bolder; }
   @media (min-width: 1281px) {
     .timer {
       width: 30%; } }
@@ -2272,7 +2522,13 @@ body {
       width: 55%; } }
   @media (min-width: 481px) and (max-width: 767px) {
     .timer {
-      width: 25%; } }
+      width: 38%; } }
+  @media screen and (max-width: 320px) {
+    .timer {
+      width: 90%; } }
+  @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .timer {
+      width: 30%; } }
 
 .correct-image img,
 .incorrect-image img {

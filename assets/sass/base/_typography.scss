@@ -5,31 +5,31 @@ html {
   line-break: 1;
   font-weight: 400;
 
- 
-  @include responsive(desktops){
+  @include responsive(desktops) {
     font-size: 90%;
   }
-  @include responsive(laptos-sm-desktops){
+  @include responsive(laptos-sm-desktops) {
     font-size: 70%;
   }
-  @include responsive(tablets-ipads){
-    
+  @include responsive(tablets-ipads) {
     font-size: 100%;
   }
-  @include responsive(tablets-ipads-landscape){
+  @include responsive(tablets-ipads-landscape) {
     font-size: 90%;
   }
-  
-  @include responsive(low-resolution-tablets-mobiles-landscape){
-    font-size: 45%;
+
+  @include responsive(low-resolution-tablets-mobiles-landscape) {
+    font-size: 60%;
   }
-  @include responsive(smartphones-general){
-    
-    // font-size: 60%;
+  @include responsive(smartphones-general) {
   }
-  @media screen and (max-width: 320px){
-    font-size: 50%;
-   }
+  @include responsive(small-smartphones) {
+    font-size: 60%;
+  }
+
+  @include responsive(small-smartphones-landscape) {
+    font-size: 40%;
+  }
 }
 
 body {
