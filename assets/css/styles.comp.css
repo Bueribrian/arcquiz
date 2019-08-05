@@ -2251,7 +2251,7 @@ body {
 
 .timer {
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 3rem auto;
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   /* 
@@ -2525,7 +2525,7 @@ body {
       width: 38%; } }
   @media screen and (max-width: 320px) {
     .timer {
-      width: 80%; } }
+      width: 90%; } }
   @media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
     .timer {
       width: 30%; } }

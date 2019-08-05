@@ -51,7 +51,7 @@
 
 .timer {
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 3rem auto;
 
   & img {
@@ -111,7 +111,7 @@
     
   }
   @include responsive(small-smartphones){
-    width: 80%;
+    width: 90%;
 
   }
  
