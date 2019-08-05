@@ -1315,7 +1315,8 @@ body {
       line-height: 2; } }
   @media (min-width: 768px) and (max-width: 1024px) {
     .terminos-condiciones-container {
-      line-height: 1.5; } }
+      line-height: 1.5;
+      padding: 2.5rem 2.5rem 20rem 2.5rem; } }
 
 .ranking-container {
   padding: 1rem 2.5rem 10rem 2.5rem;
@@ -1885,9 +1886,6 @@ body {
   @media (min-width: 1025px) and (max-width: 1280px) {
     .card-2 {
       height: 30rem; } }
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .card-2 {
-      padding: 0 2rem; } }
   .card-2__info {
     flex: 1;
     background: #ffffff;
