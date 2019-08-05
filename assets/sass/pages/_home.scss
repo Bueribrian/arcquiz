@@ -103,8 +103,8 @@ footer {
       @include responsive(desktops) {
         margin: 2rem;
       }
-      @include responsive(laptos-sm-desktops) {
-      }
+      // @include responsive(laptos-sm-desktops) {
+      // }
       @include responsive(tablets-ipads) {
         margin: 3rem;
       }
@@ -115,8 +115,8 @@ footer {
       @include responsive(low-resolution-tablets-mobiles-landscape) {
         margin: 0.5rem;
       }
-      @include responsive(smartphones-general) {
-      }
+      // @include responsive(smartphones-general) {
+      // }
 
       @include responsive(low-resolution-tablets-mobiles-landscape) {
         margin: 0.8rem;

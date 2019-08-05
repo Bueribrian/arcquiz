@@ -6,23 +6,9 @@
 }
 .carousel {
   width: 100%;
-
   &-cards {
     display: flex;
     justify-content: space-between;
-  }
-  @include responsive(desktops) {
-  }
-  @include responsive(laptos-sm-desktops) {
-  }
-  @include responsive(tablets-ipads) {
-  }
-  @include responsive(tablets-ipads-landscape) {
-  }
-
-  @include responsive(low-resolution-tablets-mobiles-landscape) {
-  }
-  @include responsive(smartphones-general) {
   }
 }
 
@@ -106,16 +92,6 @@
   @include responsive(laptos-sm-desktops) {
     height: 30rem;
   }
-  @include responsive(tablets-ipads) {
-  }
-  @include responsive(tablets-ipads-landscape) {
-    
-  }
-
-  @include responsive(low-resolution-tablets-mobiles-landscape) {
-  }
-  @include responsive(smartphones-general) {
-  }
 
   &__info {
     flex: 1;
@@ -152,19 +128,7 @@
     color: $color-purple;
     letter-spacing: 0.1rem;
   }
-
-  @include responsive(desktops) {
-  }
-  @include responsive(laptos-sm-desktops) {
-  }
   @include responsive(tablets-ipads) {
     height: 19rem;
-  }
-  @include responsive(tablets-ipads-landscape) {
-  }
-
-  @include responsive(low-resolution-tablets-mobiles-landscape) {
-  }
-  @include responsive(smartphones-general) {
   }
 }

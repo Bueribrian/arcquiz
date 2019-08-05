@@ -21,8 +21,7 @@ html {
   @include responsive(low-resolution-tablets-mobiles-landscape) {
     font-size: 60%;
   }
-  @include responsive(smartphones-general) {
-  }
+
   @include responsive(small-smartphones) {
     font-size: 60%;
   }

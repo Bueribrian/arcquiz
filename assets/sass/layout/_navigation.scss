@@ -29,18 +29,7 @@ header{
     padding: 0 10rem;
     
   }
-  @include responsive(tablets-ipads-landscape){
-    
-  }
-  
-  @include responsive(low-resolution-tablets-mobiles-landscape){
-     
-  }
-  @include responsive(smartphones-general){
-    
-  }
 
-  
 }
 .navbar-button {
     margin:0;

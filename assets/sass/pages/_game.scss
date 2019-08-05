@@ -8,9 +8,7 @@
   @include responsive(desktops){
     padding: 0 20rem;
   }
-  @include responsive(laptos-sm-desktops){
-    
-  }
+
   @include responsive(tablets-ipads){
     
     font-size: 1.8rem;
@@ -18,25 +16,17 @@
   @include responsive(tablets-ipads-landscape){
     font-size: 1.5rem;
   }
-  
-  @include responsive(low-resolution-tablets-mobiles-landscape){
-    
-  }
+
   @include responsive(smartphones-general){
     font-size: 1.4rem;
   }
 }
 .question{
-  @include responsive(desktops){
-    
-  }
+
   @include responsive(laptos-sm-desktops){
     padding: 0 15rem;
   }
-  @include responsive(tablets-ipads){
-    
-    
-  }
+
   @include responsive(tablets-ipads-landscape){
     padding: 0 5rem;
   }
@@ -109,11 +99,9 @@
      width: 38%;
      margin: .5rem auto;
   }
-  @include responsive(smartphones-general){
-    
-  }
+
   @include responsive(small-smartphones){
-    width: 90%;
+    width: 75%;
 
   }
  
